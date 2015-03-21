@@ -36,5 +36,5 @@ The following task will create a build, start a watch process, and start a
 server at [http://localhost:3000](http://localhost:3000).
 
 ```
-grunt develop
+grunt
 ```

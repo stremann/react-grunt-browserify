@@ -47,7 +47,7 @@ module.exports = function(grunt) {
       dest: './client/build/assets/styles.css',
       options: {
         dumpLineNumbers: debug ? 'all' : false,
-        sourceMap: debug,
+        sourceMap: false,
         outputSourceFiles: debug,
         cleancss: !debug
       }
@@ -98,8 +98,8 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('develop', ['build', 'concurrent:develop']);
   grunt.registerTask('build', ['clean', 'jshint', 'browserify:app', 'uglify', 'copy', 'less']);
+  grunt.registerTask('develop', ['build', 'concurrent:develop']);
 
-  grunt.registerTask('default', ['build']);
+  grunt.registerTask('default', ['develop']);
 };

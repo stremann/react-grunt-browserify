@@ -1,7 +1,6 @@
 module.exports = function(app) {
   var comments = [
-    { "author": "Brent Ertz", "text": "I like your __moves__!" },
-    { "author": "Lea Ertz", "text": "I like your *style*!" }
+    { "author": "Roman Stremedlovskyi", "text": "This is REACT" }
   ];
 
   app.get('/api/comments', function(req, res) {
