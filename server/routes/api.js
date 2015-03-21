@@ -9,7 +9,7 @@ module.exports = function(app) {
 
     fs.readFile(filePath, {encoding: 'utf-8'}, function(err, data) {
         if (!err) {
-          res.writeHead(200, {'Content-Type': 'text/json'});
+          res.setHeader('Content-Type', 'application/json');
           res.write(data);
           res.end();
         } else {
