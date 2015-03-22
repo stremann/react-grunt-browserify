@@ -30,6 +30,11 @@ module.exports = function(grunt) {
   });
 
   grunt.config('copy', {
+    main: {
+        files: [
+          {expand: true, cwd: './client/src', src: ['*.ico'], dest: './client/build/assets/'}
+        ]
+      },
     html: {
       src: './client/src/index.html',
       dest: './client/build/index.html',
