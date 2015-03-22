@@ -1,0 +1,26 @@
+{
+  "name": "react-talk",
+  "version": "1.0.0",
+  "description": "The React tutorial, refactored to use Bootstrap Material Design",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stremann/react-talk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stremann/react-talk/issues"
+  },
+  "homepage": "https://github.com/stremann/react-talk",
+  "author": "Roman Stremedlovskyi <stremann@yahoo.com> (http://stremann.github.io/)",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "tests",
+    "test"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "~0.3.0"
+  }
+}

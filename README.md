@@ -6,6 +6,10 @@
 ## Installation
 
 ```
+bower install
+```
+
+```
 npm install
 ```
 
