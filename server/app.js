@@ -11,6 +11,7 @@ var config = require('config');
 app.set('env', config.env);
 app.set('port', config.port);
 app.use(express.static(config.staticBase));
+app.use('/bower_components',  express.static(__dirname + '/../bower_components'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(logger(config.loggerOptions));
