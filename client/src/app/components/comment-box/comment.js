@@ -5,11 +5,11 @@ var React = require('react');
 var Comment = React.createClass({
   render: function() {
     return (
-      <div className="comment">
-        <h2 className="commentAuthor">
+      <div className="RT-commentContent">
+        <div className="RT-commentContent__author">
           {this.props.author}
-        </h2>
-        <span>{this.props.children.toString()}</span>
+        </div>
+        <span className="RT-commentContent__body">{this.props.children.toString()}</span>
       </div>
     );
   }

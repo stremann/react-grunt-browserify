@@ -12,7 +12,7 @@ var CommentList = React.createClass({
     });
 
     return (
-      <div className="commentList">
+      <div className="RT-commentBox__list">
         { commentNodes }
       </div>
     );
