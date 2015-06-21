@@ -1,44 +1,46 @@
-# react-talk
+# React Talk
 
->	This repo builds upon the comment-box project from the [official react tutorial](http://facebook.github.io/react/docs/tutorial.html) especially for js-talk.
+> This repo builds upon the comment-box project from the [official react tutorial](http://facebook.github.io/react/docs/tutorial.html) especially for js-talk
 
+### Installation:
 
-## Installation
-
-```
-bower install
-```
-
-```
-npm install
+```sh
+$ npm install
+$ bower install
 ```
 
-## Build
+### Build:
 
-```
-grunt build
+```sh
+$ grunt build
 ```
 
 or for minified assets
 
-```
-grunt build --env production
+```sh
+$ grunt build --env production
 ```
 
-## Server
+### Server:
 
 The following script will start a server at
 [http://localhost:3000](http://localhost:3000).
 
-```
-npm start
+```sh
+$ npm start
 ```
 
-## Develop
+### Develop:
 
 The following task will create a build, start a watch process, and start a
 server at [http://localhost:3000](http://localhost:3000).
 
+```sh
+$ grunt
 ```
-grunt
-```
+
+### Check list:
+
+  - Ad comments in <CommentBox> component
+  - Call your friends to watch
+  - Enjoy
